@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  @apply outline-none transition-all;
+}
+
+body{
+  @apply bg-gray-900 text-white;
+  -webkit-font-smoothing: antialiased;
+}
+
+.logo{
+  @apply font-extrabold text-3xl font-serif;
+}
+
+.title{
+  @apply font-bold text-4xl font-sans;
+}
+
+.subtitle{
+  @apply font-bold text-2xl font-sans;
+}
+
+.text{
+  @apply text-2xl font-mono;
+}
